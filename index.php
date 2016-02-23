@@ -1,3 +1,3 @@
 <?php
-header("Refresh: 60; URL=login.php");
+header("Refresh: 30; URL=login.php");
 ?>
