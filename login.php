@@ -35,9 +35,9 @@
   		<div class="col-md-4  login">
   			<form method="POST" action="auth.php">
   				<h3 style="text-align:center;">Admin Log In</h3>
-  				<label for="Email" class="control-label">Username:</label>
+  				<label for="Email" class="control-label lbl-field">Username:</label>
   				<input type="text" class="form-control" name="username" placeholder="User Id" required="required" autofocus="autofocus"/>
-  				<label class="control-label">Password:</label>
+  				<label class="control-label lbl-field">Password:</label>
   				<input type="password" class="form-control" name="password" placeholder="Password" required="required" />
 
   				<button class="btn btn-sm btn-primary btn-block" name="submit" type="submit" style="margin-top:45px;">Log in</button>

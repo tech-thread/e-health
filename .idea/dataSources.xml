@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2880591980">
+    <data-source source="LOCAL" name="MySQL - db_eHealth@localhost" uuid="58c35448-9fec-4672-aa5d-b7a3c0224d40">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/db_eHealth</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dffbdfdfdfcbdfc4dfccdfcfdfd3</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
