@@ -69,3 +69,6 @@ ALTER TABLE `tbl_madicine` ADD CONSTRAINT `tbl_madicine_fk1` FOREIGN KEY (`manuf
 ALTER TABLE `tbl_patient_details` ADD CONSTRAINT `tbl_patient_details_fk0` FOREIGN KEY (`patient`) REFERENCES `tbl_patient`(`id`);
 
 ALTER TABLE `tbl_patient_details` ADD CONSTRAINT `tbl_patient_details_fk1` FOREIGN KEY (`madicine`) REFERENCES `tbl_madicine`(`id`);
+
+#--username: admin password:Adm1n#
+insert into tbl_user (full_name, login_name, status, user_role, phone, password) values  ('', 'admin', '1', '', '', 'Adm1n#');

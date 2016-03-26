@@ -1,12 +1,12 @@
 <?php
 session_start();
 
-include 'action/connect.php';
+include 'action/db-connection.php';
 
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$query= mysql_query("SELECT * FROM tbl_login WHERE username ='$username' AND password='$password' ");
+$query= mysql_query("SELECT * FROM tbl_user WHERE login_name ='$username' AND password='$password' ");
 
 
 

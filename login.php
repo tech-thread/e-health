@@ -33,7 +33,7 @@
   			<img class="img-responsive login" src="images/eHealth.jpg">
   		</div>
   		<div class="col-md-4  login">
-  			<form method="POST" action="auth.php">
+  			<form method="POST" action="login-action.php">
   				<h3 style="text-align:center;">Admin Log In</h3>
   				<label for="Email" class="control-label lbl-field">Username:</label>
   				<input type="text" class="form-control" name="username" placeholder="User Id" required="required" autofocus="autofocus"/>
